@@ -12,7 +12,11 @@ public class Main {
         System.out.println("Преступление и наказание " + crimeAndPunishment.getYearBook());
         
         System.out.println();
-        System.out.println(warAndPeace.equals(crimeAndPunishment));
+        System.out.println("Сравнение книг - " + warAndPeace.equals(crimeAndPunishment));
 
+        System.out.println();
+        Author author = new Author("Лев Николаевич","Толстой");
+        Author author1 = new Author("Федор Михайлович","Достоевский");
+        System.out.println("Сравнение авторов - " + author.equals(author1));
     }
 }
